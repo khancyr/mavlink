@@ -989,7 +989,6 @@
                     <param index="6">Empty</param>
                     <param index="7">Empty</param>
                 </entry>
-
                <entry value="192" name="MAV_CMD_DO_REPOSITION">
                     <description>Reposition the vehicle to a specific WGS84 global position.</description>
                     <param index="1">Ground speed, less than 0 (-1) for default</param>
@@ -1009,6 +1008,16 @@
                     <param index="5">Reserved</param>
                     <param index="6">Reserved</param>
                     <param index="7">Reserved</param>
+               </entry>
+               <entry value="194" name="MAV_CMD_DO_SET_REVERSE">
+                    <description>Set moving direction to forward or reverse.</description>
+                    <param index="1">Direction (0=Forward, 1=Reverse)</param>
+                    <param index="2">Empty</param>
+                    <param index="3">Empty</param>
+                    <param index="4">Empty</param>
+                    <param index="5">Empty</param>
+                    <param index="6">Empty</param>
+                    <param index="7">Empty</param>
                </entry>
                <entry value="200" name="MAV_CMD_DO_CONTROL_VIDEO">
                     <description>Control onboard camera system.</description>
